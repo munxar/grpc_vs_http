@@ -1,7 +1,9 @@
 #speed comparison between gRPC and http
 
-## setup and run
+## setup
 npm i
+
+## run
 npm start
 
 ## explanation
