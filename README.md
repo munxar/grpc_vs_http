@@ -39,5 +39,5 @@ uses the good old JSON.stringify / JSON.parse.
 *2.2 GHz Intel Core i7 | 8 GB 1600 MHz DDR3 | node v6.2.1*
 
 duration for 100 requests:
-gRPC: 58.618ms
-rest: 116.591ms
+- gRPC: 58.618ms
+- http: 116.591ms

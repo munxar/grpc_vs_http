@@ -12,8 +12,8 @@ gRPC.server.start()
     .then(() => gRPC.server.stop())
     .then(() => http.server.start())
     .then(() => {
-        console.time("rest");
-        return http.client(loops).then(() => console.timeEnd("rest"));
+        console.time("http");
+        return http.client(loops).then(() => console.timeEnd("http"));
     })
     .then(() => http.server.stop())
     .catch(console.error.bind(console))
